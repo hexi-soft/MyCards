@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+	<EditText android:id="@+id/editCardPickerSQL"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#000000"
+		android:textColor="#ffffff" />
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<Button android:id="@+id/btn_select"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="select" />
+		<Button android:id="@+id/btn_from"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="from" />
+		<Button android:id="@+id/btn_where"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="where" />
+		<Button android:id="@+id/btn_and"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="and" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<Button android:id="@+id/btn_equal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="=" />
+		<Button android:id="@+id/btn_quote"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="quo" />
+		<Button android:id="@+id/btn_percent"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="per" />
+		<Button android:id="@+id/btn_sents"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="sents" />
+	</LinearLayout>    
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<Button android:id="@+id/btn_cards"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="cards" />
+		<Button android:id="@+id/btn_or"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="or" />
+		<Button android:id="@+id/btn_order_by"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="order by" />
+	</LinearLayout>    
+</LinearLayout>

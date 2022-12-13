@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hexisoft.nlp.mycards.CardPagerActivity" >
+
+    <item
+        android:id="@+id/action_open"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_open"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+	<item android:id="@+id/menu_item_init_tts"
+		android:title="@string/init_tts"
+		android:showAsAction="always" />    
+
+	<item android:id="@+id/menu_item_stop_read"
+		android:title="@string/stop_read"
+		android:showAsAction="always" />    
+
+</menu>

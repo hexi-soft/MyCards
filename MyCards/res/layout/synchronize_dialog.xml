@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+		<Button android:id="@+id/btn_syn_word"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/synchronize_word_btn" />
+		<Button android:id="@+id/btn_syn_sent"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/synchronize_sent_btn" />
+		<Button android:id="@+id/btn_syn_library"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/synchronize_library_btn" />
+    
+    <TextView android:id="@+id/tv_syn_info"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" />
+
+</LinearLayout>

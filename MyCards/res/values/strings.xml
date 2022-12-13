@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="synchronize_dialog_title">synchronize with the server</string>
+<string name="synchronize_word_btn">synchronize word cards</string>
+<string name="synchronize_sent_btn">synchronize sentence cards</string>
+<string name="synchronize_library_btn">synchronize your library</string>
+    <string name="app_name">MyCards</string>
+    <string name="card_picker_title">Card Picker</string>
+    <string name="action_open">Open...</string>
+    <string name="action_select">Select...</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_synchronize">Syn...</string>
+	<string name="stop_read">■</string>
+	<string name="init_tts">●</string>
+	<string name="speed_up">+</string>
+	<string name="speed_down">-</string>
+	<string name="choose_book">choose a book</string>
+</resources>

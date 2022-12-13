@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+	
+	<WebView android:id="@+id/webView"
+		android:layout_width="match_parent"
+		android:layout_height="480dp"
+		android:background="#000000"
+		android:textColor="#ffffff" />    
+
+	<TextView android:id="@+id/statusBar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:scrollbars="vertical"
+		android:singleLine="false"
+        android:maxLines="20"
+		android:background="#000000"
+		android:textColor="#ffffff" />
+</LinearLayout>

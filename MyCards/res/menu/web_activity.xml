@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+ <item android:id="@+id/menu_item_init_tts"
+		android:title="@string/init_tts"
+		android:showAsAction="ifRoom" />    
+ <item android:id="@+id/menu_item_speed_up"
+	android:title="@string/speed_up"
+	android:showAsAction="always" />
+	
+	<item android:id="@+id/menu_item_speed_down"
+	android:title="@string/speed_down"
+	android:showAsAction="always" />
+	
+ <item android:id="@+id/menu_item_stop_read"
+		android:title="@string/stop_read"
+		android:showAsAction="always" />
+
+</menu>
